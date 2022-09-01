@@ -76,6 +76,7 @@ body {
 }
 
 .link {
+  display: block;
   color: inherit;
   text-decoration: none;
 }
@@ -84,4 +85,36 @@ body {
   margin: 0 auto;
   flex-grow: 1;
   width: 1170px;
+}
+
+
+/* Хедер */
+.page-header {
+  padding: 24px 0;
+}
+
+.navigation {
+  display: flex;
+}
+
+.logo {
+  margin-right: 32px;
+}
+
+.navigation-list {
+  position: relative;
+  display: flex;
+  gap: 0 32px;
+  padding: 10px 0;
+}
+
+.navigation-sublist {
+  position: absolute;
+  display: none;
+  min-width: 135px;
+}
+
+.navigation-link {
+  padding: 8px 16px;
+  line-height: 20px;
 }
