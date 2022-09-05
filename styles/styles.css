@@ -237,6 +237,10 @@ body {
   outline: none;
 }
 
+.search-btn-current:focus + .search-form {
+  display: block;
+}
+
 
 /* Поповер поиска */
 .search-form {
@@ -244,6 +248,7 @@ body {
   top: 60px;
   right: 126px;
   z-index: 1;
+  display: none;
   width: 356px;
   padding: 24px 16px;
   background-color: #fcfcfc;
@@ -256,4 +261,47 @@ body {
   line-height: 20px;
   border: 1px solid #b9b9b9;
   border-radius: 4px;
+}
+
+.header-field:hover + .search-close-btn,
+.header-field:focus + .search-close-btn,
+.header-field:active + .search-close-btn {
+  display: block;
+}
+
+.search-close-btn {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 29px;
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.search-close-btn:hover,
+.search-close-btn:active,
+.search-close-btn:focus {
+  display: block;
+}
+
+.search-close-btn::before,
+.search-close-btn::after {
+  position: absolute;
+  left: 3px;
+  width: 10px;
+  height: 1px;
+  background-color: #b9b9b9;
+  border-radius: 4px;
+  content: "";
+}
+
+.search-close-btn::before {
+  transform: rotate(45deg);
+}
+
+.search-close-btn::after {
+  transform: rotate(-45deg);
 }
