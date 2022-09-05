@@ -82,6 +82,13 @@ body {
   outline: none;
 }
 
+.field {
+  padding: 0;
+  font: inherit;
+  border: none;
+  outline: none;
+}
+
 .page-container {
   margin: 0 auto;
   flex-grow: 1;
@@ -191,6 +198,7 @@ body {
 }
 
 .user-menu-wrapper {
+  position: relative;
   display: flex;
   align-items: center;
   column-gap: 16px;
@@ -227,4 +235,25 @@ body {
 .search-btn-current:focus {
   background: url(../images/icons/search-icon-current.svg) no-repeat center #ff4a78;
   outline: none;
+}
+
+
+/* Поповер поиска */
+.search-form {
+  position: absolute;
+  top: 60px;
+  right: 126px;
+  z-index: 1;
+  width: 356px;
+  padding: 24px 16px;
+  background-color: #fcfcfc;
+  border-radius: 4px;
+}
+
+.header-field {
+  width: 324px;
+  padding: 14px 100px 14px 16px;
+  line-height: 20px;
+  border: 1px solid #b9b9b9;
+  border-radius: 4px;
 }
