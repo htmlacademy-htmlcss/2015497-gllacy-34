@@ -113,9 +113,38 @@ body {
   line-height: 20px;
 }
 
+.navigation-link:hover {
+  background-color: rgba(252, 252, 252, 0.5);
+  border-radius: 30px;
+}
+
+.navigation-link:active {
+  background-color: #fcfcfc;
+  border-radius: 30px;
+}
+
+.navigation-link:focus:not(.navigation-link-current) {
+  background-color: rgba(252, 252, 252, 0.5);
+  outline-offset: -1px;
+  outline: 2px solid #2d3440;
+  border-radius: 30px;
+}
+
+.navigation-link-current:focus {
+  background-color: #ff4a78;
+  border-radius: 30px;
+}
+
+.navigation-link-current:focus + .navigation-sublist {
+  display: block;
+}
+
+
+/* Подменю навигации */
 .navigation-sublist {
   position: absolute;
-  /* display: none; */
+  top: 54px;
+  display: none;
   padding: 8px 0;
   background-color: #fcfcfc;
   box-shadow: 0 8px 16px rgba(45, 52, 64, 0.12);
