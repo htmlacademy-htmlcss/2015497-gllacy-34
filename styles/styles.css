@@ -210,3 +210,21 @@ body {
   background: url(../images/icons/search-icon.svg) no-repeat center rgba(252, 252, 252, 0.3);
   border-radius: 50%;
 }
+
+.search-btn:hover {
+  background-color: rgba(252, 252, 252, 0.5);
+}
+
+.search-btn:focus {
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 2px solid #2d3440;
+}
+
+.search-btn:active {
+  background-color: #fcfcfc;
+}
+
+.search-btn-current:focus {
+  background: url(../images/icons/search-icon-current.svg) no-repeat center #ff4a78;
+  outline: none;
+}
