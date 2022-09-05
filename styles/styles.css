@@ -189,3 +189,17 @@ body {
   background-color: #ff4a78;
   color: #fcfcfc;
 }
+
+.user-menu-wrapper {
+  display: flex;
+  column-gap: 16px;
+  margin-left: auto;
+}
+
+.user-menu-tel-link {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  line-height: 20px;
+  /* Уточнить состояние */
+}
