@@ -192,14 +192,21 @@ body {
 
 .user-menu-wrapper {
   display: flex;
+  align-items: center;
   column-gap: 16px;
   margin-left: auto;
 }
 
 .user-menu-tel-link {
   display: flex;
-  align-items: center;
   font-weight: 700;
   line-height: 20px;
   /* Уточнить состояние */
+}
+
+.search-btn {
+  width: 32px;
+  height: 32px;
+  background: url(../images/icons/search-icon.svg) no-repeat center rgba(252, 252, 252, 0.3);
+  border-radius: 50%;
 }
