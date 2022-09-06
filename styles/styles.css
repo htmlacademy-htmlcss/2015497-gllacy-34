@@ -363,7 +363,8 @@ body {
   width: 324px;
   padding: 14px 100px 14px 16px;
   line-height: 20px;
-  border: 1px solid #b9b9b9;
+  outline: 1px solid #b9b9b9;
+  border: none;
   border-radius: 4px;
 }
 
@@ -371,12 +372,28 @@ body {
   margin-bottom: 16px;
 }
 
-.auth-field-email::placeholder {
-  color: #2d3440;
-}
-
 .auth-field-password {
   margin-bottom: 32px;
+}
+
+.auth-field:hover {
+  outline: 1px solid #2d3440;
+}
+
+.auth-field:focus {
+  outline: 2px solid #2d3440;
+}
+
+.auth-field:invalid {
+  outline: 1px solid #ea5454;
+}
+
+.auth-field:invalid:hover {
+  outline: 2px solid #ea5454;
+}
+
+.auth-field:disabled {
+  background-color: #e7e7e7;
 }
 
 .auth-btn {
