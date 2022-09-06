@@ -427,6 +427,31 @@ body {
   outline: 4px solid rgba(255, 47, 100, 0.3);
 }
 
+.auth-btn:hover {
+  color: #2d3440;
+  background-color: rgba(252, 252, 252, 0.3);
+  outline: 4px solid #ff2f64;
+}
+
+.auth-btn:focus {
+  color: #fcfcfc;
+  background-color: #ff2f64;
+  outline: 2px solid #2d3440;
+}
+
+.auth-btn:active {
+  color: #fcfcfc;
+  background-color: #feafc3;
+  outline: 2px solid #2d3440;
+}
+
+.auth-btn:disabled {
+  color: #565c66;
+  background-color: #b9b9b9;
+  outline: 4px solid rgba(185, 185, 185, 0.3);
+  cursor: default;
+}
+
 .auth-link-wrapper {
   display: inline-block;
   max-width: 188px;
