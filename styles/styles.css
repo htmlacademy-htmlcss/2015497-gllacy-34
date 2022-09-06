@@ -334,3 +334,16 @@ body {
   background: url(../images/icons/login-icon-current.svg) no-repeat 17px 50% #ff4a78;
   outline: none;
 }
+
+
+/* Поповер логина */
+.auth-wrapper {
+  position: absolute;
+  top: 60px;
+  right: 67px;
+  z-index: 1;
+  width: 420px;
+  padding: 48px 48px 52px 48px;
+  background-color: #fcfcfc;
+  border-radius: 4px;
+}
