@@ -314,3 +314,22 @@ body {
   background: url(../images/icons/login-icon.svg) no-repeat 17px 50% rgba(252, 252, 252, 0.3);;
   border-radius: 30px;
 }
+
+.login-link:hover {
+  background-color: rgba(252, 252, 252, 0.5);
+}
+
+.login-link:focus {
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 2px solid #000000;
+}
+
+.login-link:active {
+  background-color: #fcfcfc;
+}
+
+.login-link-current:focus {
+  color: #fcfcfc;
+  background: url(../images/icons/login-icon-current.svg) no-repeat 17px 50% #ff4a78;
+  outline: none;
+}
