@@ -380,10 +380,27 @@ body {
 }
 
 .auth-btn {
+  margin-right: 23px;
   padding: 12px 32px;
   font-weight: 700;
   line-height: 20px;
   color: #fcfcfc;
   background-color: #ff2f64;
   outline: 4px solid rgba(255, 47, 100, 0.3);
+}
+
+.auth-link-wrapper {
+  display: inline-block;
+  max-width: 188px;
+  vertical-align: bottom;
+}
+
+.auth-link {
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: underline;
+}
+
+.auth-forgot-link {
+  margin-bottom: 4px;
 }

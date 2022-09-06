@@ -62,7 +62,8 @@
             <!-- Поповер поиска -->
             <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
               <label class="visually-hidden" for="search-text">Текстовое поле для поиска.</label>
-              <input class="field header-field" type="text" name="search-text" placeholder="Поиск по сайту" id="search-text">
+              <input class="field header-field" type="text" name="search-text" placeholder="Поиск по сайту"
+                id="search-text">
               <button class="btn search-close-btn" type="reset">
                 <span class="visually-hidden">Сброс ввода.</span>
               </button>
@@ -75,13 +76,17 @@
               <h2 class="title auth-title">Личный кабинет</h2>
               <form action="https://echo.htmlacademy.ru/" method="post">
                 <label class="visually-hidden" for="auth-email">Текстовое поле для ввода логина.</label>
-                <input class="field auth-field auth-field-email" type="email" name="auth-email" placeholder="email@example.com" id="auth-email">
+                <input class="field auth-field auth-field-email" type="email" name="auth-email"
+                  placeholder="email@example.com" id="auth-email">
                 <label class="visually-hidden" for="auth-password">Поле для ввода пароля.</label>
-                <input class="field auth-field auth-field-password" type="password" name="auth-password" id="auth-password">
+                <input class="field auth-field auth-field-password" type="password" name="auth-password"
+                  id="auth-password">
                 <button class="btn auth-btn" type="submit">Войти</button>
+                <div class="auth-link-wrapper">
+                  <a class="link auth-link auth-forgot-link" href="#">Забыли пароль?</a>
+                  <a class="link auth-link" href="#">Регистрация</a>
+                </div>
               </form>
-              <a class="link forgot-link" href="#">Забыли пароль?</a>
-              <a class="link reg-link" href="#">Регистрация</a>
             </div>
 
             <button class="btn cart-btn" type="button">2 товара</button>
