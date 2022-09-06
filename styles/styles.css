@@ -83,10 +83,15 @@ body {
 }
 
 .field {
+  display: block;
   padding: 0;
   font: inherit;
   border: none;
   outline: none;
+}
+
+.title {
+  margin: 0;
 }
 
 .page-container {
@@ -346,4 +351,29 @@ body {
   padding: 48px 48px 52px 48px;
   background-color: #fcfcfc;
   border-radius: 4px;
+}
+
+.auth-title {
+  margin-bottom: 32px;
+  line-height: 30px;
+}
+
+.auth-field {
+  width: 324px;
+  padding: 14px 100px 14px 16px;
+  line-height: 20px;
+  border: 1px solid #b9b9b9;
+  border-radius: 4px;
+}
+
+.auth-field-email {
+  margin-bottom: 16px;
+}
+
+.auth-field-email::placeholder {
+  color: #2d3440;
+}
+
+.auth-field-password {
+  margin-bottom: 32px;
 }
