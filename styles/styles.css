@@ -63,6 +63,7 @@ body {
 
 .btn {
   padding: 0;
+  font: inherit;
   border: none;
   border-radius: 26px;
   box-shadow: 0 4px 12px rgba(45, 52, 64, 0.1);
@@ -376,4 +377,13 @@ body {
 
 .auth-field-password {
   margin-bottom: 32px;
+}
+
+.auth-btn {
+  padding: 12px 32px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #fcfcfc;
+  background-color: #ff2f64;
+  outline: 4px solid rgba(255, 47, 100, 0.3);
 }
