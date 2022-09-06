@@ -362,9 +362,15 @@ body {
   outline: none;
 }
 
+.login-link-current:active + .auth-wrapper,
+.login-link-current:focus + .auth-wrapper {
+  display: block;
+}
+
 
 /* Поповер логина */
 .auth-wrapper {
+  display: none;
   position: absolute;
   top: 60px;
   right: 67px;
