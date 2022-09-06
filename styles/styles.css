@@ -305,3 +305,12 @@ body {
 .search-close-btn::after {
   transform: rotate(-45deg);
 }
+
+.login-link {
+  width: 88px;
+  padding: 6px 16px 6px 38px;
+  font-size: 14px;
+  line-height: 20px;
+  background: url(../images/icons/login-icon.svg) no-repeat 17px 50% rgba(252, 252, 252, 0.3);;
+  border-radius: 30px;
+}
