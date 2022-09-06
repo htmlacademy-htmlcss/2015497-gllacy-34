@@ -69,6 +69,21 @@
             </form>
 
             <a class="link login-link login-link-current" href="#">Вход</a>
+
+            <!-- Поповер логина -->
+            <div class="auth-wrapper">
+              <h2 class="auth-title">Личный кабинет</h2>
+              <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
+                <label class="visually-hidden" for="auth-email">Текстовое поле для ввода логина.</label>
+                <input class="field auth-field-email" type="email" name="auth-email" placeholder="email@example.com" id="auth-email">
+                <label class="visually-hidden" for="auth-password">Поле для ввода пароля.</label>
+                <input class="field auth-field-password" type="password" name="auth-password" id="auth-password">
+                <button class="btn auth-btn" type="submit">Войти</button>
+              </form>
+              <a class="link forgot-link" href="#">Забыли пароль?</a>
+              <a class="link reg-link" href="#">Регистрация</a>
+            </div>
+
             <button class="btn cart-btn" type="button">2 товара</button>
           </div>
         </nav>
