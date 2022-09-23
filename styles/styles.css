@@ -216,10 +216,24 @@ body {
 }
 
 .user-menu-tel-link {
-  display: flex;
+  padding: 8px;
+  margin-right: -8px;
   font-weight: 700;
   line-height: 20px;
-  /* Уточнить состояние */
+  border-radius: 30px;
+}
+
+.user-menu-tel-link:hover {
+  background-color: rgba(252, 252, 252, 0.5);
+}
+
+.user-menu-tel-link:active {
+  background-color: #fcfcfc;
+}
+
+.user-menu-tel-link:focus {
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 2px solid #2d3440;
 }
 
 .search-btn {
