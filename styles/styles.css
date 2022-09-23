@@ -50,6 +50,8 @@ body {
   background-color: #ffffff;
 }
 
+
+/* Паттерны */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -93,6 +95,14 @@ body {
 
 .title {
   margin: 0;
+}
+
+.blue-bg {
+  background-color: #69a9ff;
+}
+
+.yellow-bg {
+  background-color: #fcc850;
 }
 
 .pink-bg {
