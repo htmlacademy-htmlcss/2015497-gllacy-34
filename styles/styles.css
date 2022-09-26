@@ -251,6 +251,7 @@ body {
   height: 32px;
   background: url(../images/icons/search-icon.svg) no-repeat center rgba(252, 252, 252, 0.3);
   border-radius: 50%;
+  box-shadow: none;
 }
 
 .search-btn:hover {
@@ -500,4 +501,28 @@ body {
 
 .auth-forgot-link {
   margin-bottom: 4px;
+}
+
+.cart-btn {
+  width: 115px;
+  padding: 6px 16px 6px 38px;
+  font-size: 14px;
+  line-height: 20px;
+  background: url(../images/icons/cart-header-icon.svg) no-repeat 17px 50% rgba(252, 252, 252, 0.3);
+  border-radius: 30px;
+  box-shadow: none;
+  outline: none;
+}
+
+.cart-btn:hover {
+  background-color: rgba(252, 252, 252, 0.5);
+}
+
+.cart-btn:focus {
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 2px solid #000000;
+}
+
+.cart-btn:active {
+  background-color: #fcfcfc;
 }
