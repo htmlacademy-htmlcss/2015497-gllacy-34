@@ -263,7 +263,7 @@ body {
 .search-btn {
   width: 32px;
   height: 32px;
-  background: url(../images/icons/search-icon.svg) no-repeat center rgba(252, 252, 252, 0.3);
+  background: url("../images/icons/search-icon.svg") no-repeat center rgba(252, 252, 252, 0.3);
   border-radius: 50%;
   box-shadow: none;
 }
@@ -282,7 +282,7 @@ body {
 }
 
 .search-btn-current:focus {
-  background: url(../images/icons/search-icon-current.svg) no-repeat center #ff4a78;
+  background: url("../images/icons/search-icon-current.svg") no-repeat center #ff4a78;
   outline: none;
 }
 
@@ -382,7 +382,7 @@ body {
   padding: 6px 16px 6px 38px;
   font-size: 14px;
   line-height: 20px;
-  background: url(../images/icons/login-icon.svg) no-repeat 17px 50% rgba(252, 252, 252, 0.3);;
+  background: url("../images/icons/login-icon.svg") no-repeat 17px 50% rgba(252, 252, 252, 0.3);;
   border-radius: 30px;
 }
 
@@ -401,7 +401,7 @@ body {
 
 .login-link-current:focus {
   color: #fcfcfc;
-  background: url(../images/icons/login-icon-current.svg) no-repeat 17px 50% #ff4a78;
+  background: url("../images/icons/login-icon-current.svg") no-repeat 17px 50% #ff4a78;
   outline: none;
 }
 
@@ -522,7 +522,7 @@ body {
   padding: 6px 16px 6px 38px;
   font-size: 14px;
   line-height: 20px;
-  background: url(../images/icons/cart-header-icon.svg) no-repeat 17px 50% rgba(252, 252, 252, 0.3);
+  background: url("../images/icons/cart-header-icon.svg") no-repeat 17px 50% rgba(252, 252, 252, 0.3);
   border-radius: 30px;
   box-shadow: none;
   outline: none;
@@ -539,4 +539,10 @@ body {
 
 .cart-btn:active {
   background-color: #fcfcfc;
+}
+
+.cart-btn-current:focus {
+  color: #fcfcfc;
+  background: url("../images/icons/cart-icon-current.svg") no-repeat 17px 50% #ff4a78;
+  outline: none;
 }
