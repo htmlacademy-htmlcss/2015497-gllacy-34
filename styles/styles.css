@@ -377,7 +377,6 @@ body {
 }
 
 .login-link {
-  position: relative;
   width: 88px;
   padding: 6px 16px 6px 38px;
   font-size: 14px;
@@ -545,4 +544,21 @@ body {
   color: #fcfcfc;
   background: url("../images/icons/cart-icon-current.svg") no-repeat 17px 50% #ff4a78;
   outline: none;
+}
+
+
+/* Поповер полной корзины */
+.cart-wrapper {
+  /* display: none; */
+  position: absolute;
+  top: 60px;
+  z-index: 1;
+  width: 441px;
+  padding: 48px;
+  background-color: #fcfcfc;
+  border-radius: 4px;
+}
+
+.cart-title {
+  line-height: 30px;
 }
