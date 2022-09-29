@@ -622,3 +622,22 @@ body {
   box-shadow: none;
   background-color: transparent;
 }
+
+.cart-close-btn::after,
+.cart-close-btn::before {
+  position: absolute;
+  left: 3px;
+  width: 10px;
+  height: 1px;
+  background-color: #000000;
+  border-radius: 30px;
+  content: "";
+}
+
+.cart-close-btn::after {
+  transform: rotate(45deg);
+}
+
+.cart-close-btn::before {
+  transform: rotate(-45deg);
+}
