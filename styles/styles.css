@@ -612,3 +612,13 @@ body {
   font-weight: 700;
   font-size: 18px;
 }
+
+.cart-close-btn {
+  position: absolute;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: transparent;
+}
