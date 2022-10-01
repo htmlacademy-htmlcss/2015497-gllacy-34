@@ -547,10 +547,15 @@ body {
   outline: none;
 }
 
+.cart-btn-current:active + .cart-wrapper,
+.cart-btn-current:focus + .cart-wrapper {
+  display: block;
+}
+
 
 /* Поповер полной корзины */
 .cart-wrapper {
-  /* display: none; */
+  display: none;
   position: absolute;
   top: 60px;
   z-index: 1;
@@ -703,4 +708,21 @@ body {
 .cart-total-price {
   font-weight: 700;
   font-size: 18px;
+}
+
+.cart-wrapper-empty {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  z-index: 1;
+  width: 288px;
+  padding: 48px 28px;
+  background-color: #fcfcfc;
+  border-radius: 4px;
+}
+
+.cart-title-empty {
+  line-height: 30px;
+  text-align: center;
 }
