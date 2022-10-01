@@ -567,6 +567,7 @@ body {
 
 .cart-list {
   padding-bottom: 32px;
+  margin-bottom: 32px;
   border-bottom: 1px solid #e7e7e7;
 }
 
@@ -590,6 +591,20 @@ body {
 
 .cart-link-2 {
   margin-right: 72px;
+}
+
+.cart-link:hover {
+  opacity: 0.5;
+}
+
+.cart-link:focus {
+  border-radius: 5px;
+  outline: 2px solid #2d3440;
+  outline-offset: 5px;
+}
+
+.cart-link:active {
+  opacity: 0.3;
 }
 
 .cart-image {
@@ -641,4 +656,3 @@ body {
 .cart-close-btn::before {
   transform: rotate(-45deg);
 }
-/* Состояния ссылок и кнопки-крестика */
