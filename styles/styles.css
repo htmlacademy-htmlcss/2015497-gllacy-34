@@ -656,3 +656,11 @@ body {
 .cart-close-btn::before {
   transform: rotate(-45deg);
 }
+
+.cart-close-btn:hover {
+  opacity: 0.5;
+}
+
+.cart-close-btn:active {
+  opacity: 0.3;
+}
