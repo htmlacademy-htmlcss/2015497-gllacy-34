@@ -107,13 +107,14 @@ body {
 }
 
 .pink-bg {
+  width: 1170px;
   background-color: #feafc3;
 }
 
 .page-container {
   margin: 0 auto;
   flex-grow: 1;
-  width: 1170px;
+  min-width: 100%;
 }
 
 
