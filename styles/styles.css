@@ -148,12 +148,14 @@ body {
 .navigation-list {
   position: relative;
   display: flex;
+  max-width: 500px;
   padding: 10px 0;
 }
 
 .navigation-link {
   padding: 8px 16px;
   line-height: 20px;
+  text-align: center;
 }
 
 .navigation-link:hover {
