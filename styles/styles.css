@@ -741,5 +741,19 @@ body {
 }
 
 .slider-content {
-  margin: 136px 0 0 70px;
+  width: 470px;
+  margin: 136px 21px 0 70px;
+}
+
+.slider-title {
+  margin-bottom: 24px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.slider-discription {
+  margin-bottom: 48px;
+  font-size: 18px;
+  line-height: 24px;
 }
