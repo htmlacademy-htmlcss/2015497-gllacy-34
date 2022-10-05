@@ -731,3 +731,15 @@ body {
 
 
 /* Слайдер */
+.index-slider-blue,
+.index-slider-yellow {
+  display: none;
+}
+
+.slider-main {
+  display: flex;
+}
+
+.slider-content {
+  margin: 136px 0 0 70px;
+}
