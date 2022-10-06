@@ -843,3 +843,10 @@ body {
 .slider-image:not(:last-of-type) {
   margin-right: 75px;
 }
+
+.slider-controls {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
