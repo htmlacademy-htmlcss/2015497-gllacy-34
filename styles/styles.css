@@ -879,3 +879,37 @@ body {
   background: url("../images/icons/slider-arrow-states.svg") no-repeat 50% transparent;
   outline: none;
 }
+
+.slider-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-pagination {
+  display: flex;
+  gap: 8px;
+  min-width: 52px;
+}
+
+.slider-pagination-btn {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(252, 252, 252, 0.4);
+}
+
+.slider-pagination-btn-current {
+  background-color: #fcfcfc;
+}
+
+.slider-pagination-btn:hover {
+  outline: 1px solid #fcfcfc;
+}
+
+.slider-pagination-btn:focus {
+  outline: 1px solid #2d3440;
+}
+
+.slider-pagination-btn:active {
+  background-color: rgba(252, 252, 252, 0.4);
+  outline: none;
+}
