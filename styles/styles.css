@@ -826,7 +826,7 @@ body {
 .index-slider::after {
   position: absolute;
   right: 0;
-  bottom: 266px;
+  bottom: 227px;
   width: 100px;
   height: 100px;
   background-color: #ffcbd8;
@@ -912,4 +912,17 @@ body {
 .slider-pagination-btn:active {
   background-color: rgba(252, 252, 252, 0.4);
   outline: none;
+}
+
+.slider-social-list {
+  display: flex;
+  gap: 16px;
+  min-width: 104px;
+}
+
+.slider-social-link {
+  width: 24px;
+  height: 24px;
+  outline: 2px solid rgba(252, 252, 252, 0.3);
+  border-radius: 26px;
 }
